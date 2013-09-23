@@ -1,4 +1,11 @@
-bash_fuzzy_search
-=================
+Fuzzy search in bash
+-------------------
 
-Try to create fuzzy search in bash
+Usage:
+
+    ./fuzzy.sh ${file} ${fuzzy_search_string}
+
+Example searching `fuzzy_filter_string` variable
+
+    $ ./fuzzy.sh fuzzy.sh fufist
+
